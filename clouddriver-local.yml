@@ -15,7 +15,8 @@ kubernetes:
     - "ninja-bhaveen"
     omitNamespaces: []
     kinds: []
-    omitKinds: []
+    omitKinds: 
+    - "podPreset"
     customResources: []
     cachingPolicies: []
     onlySpinnakerManaged: true
